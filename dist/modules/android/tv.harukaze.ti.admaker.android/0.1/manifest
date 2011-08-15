@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: AdMaker module for Android
+author: Tomoya Narita <sphone@harukaze.tv> (harukazepc)
+license: MIT
+copyright: Copyright (c) 2011 by Tomoya Narita
+
+
+# these should not be edited
+name: TiAdmakerAndroid
+moduleid: tv.harukaze.ti.admaker.android
+guid: 6211f4b8-df1b-435f-96b7-0749f6e0554e
+platform: android
+minsdk: 1.6.2

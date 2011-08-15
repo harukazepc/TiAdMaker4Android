@@ -22,15 +22,26 @@ HOW TO USE IT
 	window.add(admakerView);
 
 
-INSTALL TiAdMaker4Android
+QUICK INSTALL TiAdMaker4Android
 --------------------
 
-1. Download `AdMaker Android SDK` from AdMaker's Web Console
-2. Make `lib` folder, and Put `AdMaker Android SDK` to it.
-3. Open `Terminal`
-4. Run below command
+0. Download this module Project
+2. Download `AdMaker Android SDK` from AdMaker's Web Console
+3. Copy `AdMaker Android SDK` jar file into `dist/modules/tv.harukaze.ti.admaker.android/0.1/lib/`
+4. Copy `dist/modules` folder into your Titanium Project ( ROOT/modules )
 
-	`python build.py && unzip tv.harukaze.ti.admaker.android-android-0.1.zip -d /Library/Application\ Support/Titanium/`
+
+(OPTIONAL) INSTALL TiAdMaker4Android
+--------------------
+
+0. Download this module project
+1. Download `AdMaker Android SDK` from AdMaker's Web Console
+2. Make `lib` folder, and Put `AdMaker Android SDK` inside your module project
+3. Check `build.properties` file and replace the path of SDKs
+4. From command line, run this inside your module project:
+	% ant run
+5. Copy this zip file (at `dist` folder) into the folder of your Titanium Project
+6. If you build the titanium project, the zip will be unziped and placed to you module folder
 
 
 REGISTER TO YOUR PROJECT
