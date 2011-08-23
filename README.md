@@ -51,7 +51,7 @@ Register your module with your application by editing `tiapp.xml` and adding you
 Example:
 
 	<modules>
-		<module version="0.1">tv.harukaze.ti.admaker.android</module>
+		<module version="0.1" platform="android">tv.harukaze.ti.admaker.android</module>
 	</modules>
 
 When you run your project, the compiler will know automatically compile in your module
